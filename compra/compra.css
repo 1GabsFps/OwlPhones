@@ -1,0 +1,191 @@
+/*Feito Por Yuri*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+/*Importamos a família da fonte utilizada em Compra*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+}
+/*Remove todas as formatações padrões*/
+body {
+    font-family:'Poppins', sans-serif;
+    background: linear-gradient(154.93deg, rgba(21, 21, 41, 0.92) -8.56%, #252858 58.24%, rgba(21, 21, 41, 0.92) 117.18%);
+}
+/*Seta a familia de fonte usada em todo o formulario assim como a sua cor de background*/
+.caixa{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/*Defini a largura e altura do container para prencher a tela inteira, é também defini que todos os elemento seguintes deverão estar em seu centro*/
+header{
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 50px;
+    color: #ffff;
+}
+/*Define as propriedades do Título*/
+.logo{
+    max-width: 60px;
+    max-height: 60px;
+    padding-right: 10px;
+}
+/*Define as propriedades da Logo*/
+.tit1{
+    max-height: 139px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    color:#ffff;
+    margin-left: 40px;
+}
+/*Define as propriedades do Título 1*/
+span{    
+    background: linear-gradient(94.21deg, #00FFC2 19.15%, #05C3FF 35.98%, #FF00C7 49.42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/*Define as propriedades de palavras SPAN*/
+.tit2{
+    max-height: 80px;
+    width: 700px;
+    font-size: 20px;
+    text-align: center;
+    color:#ffff;
+    margin-left: 20px;
+}
+/*Define as propriedades do título 2*/
+.ima{
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+/*Define as propriedades da imagem*/
+.ima>img{
+    width: 350px;
+    transition: 0.5s linear;
+}
+/*Define a largura do IMA  e chama a IMG*/
+.paralax{
+    height: 100vh;
+    background: url(img/Fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 80px;
+}
+/*Define as propriedades do Parallax*/
+.tit3{
+    height: 70px;
+    width: 500px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 48px;
+    color:#ffff;
+}
+/*Define as propriedades do Título 3*/  
+.textop{
+    width: 500px;
+    height: 200px;
+    color: #ffff;  
+}
+/*Define as propriedades do textop*/  
+.lista{
+    width: 500px;
+    height: 300px;
+    color: #ffff;
+    padding:  10px 30px ;
+}
+/*Define as propriedades da lista*/
+.produto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding:80px;
+}
+/*Define as propriedades do Produto*/
+.inscrevase{
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Define as propriedades do botão de inscrição*/
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    width: 260px;
+    height: 44px;
+}
+/*Define as propriedade da imagem*/
+.image>img{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+
+}
+/*Define as propriedades da IMAGE e chama o IMG*/
+.botao{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: 0.5s linear
+}
+/*Define propriedades específicas do Botão */
+.cadastro{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*Define as propriedades do Cadastro*/
+.tit1 h1{
+    padding-bottom: 30px;
+}
+
+.ima>img:hover{
+    width: 390px;
+}

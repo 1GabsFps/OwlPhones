@@ -1,0 +1,482 @@
+/*Feito Por Neco (Parte do alexandre na linha 313)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800;900&display=swap');
+/*Importa a família da fonte utilizada na Landing Page*/
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    }
+/*Remove todas as formatações padrões*/
+body{
+    background-color: #1B1B37;
+}
+/*Define o fundo do Body*/
+.logo{
+    width: 60px ;
+    display: flex;
+    align-items: center;
+}
+/*Define as propriedades da logo*/
+header{
+    height: 150px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:120px;
+}
+/*Define as propriedades do Título*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+/*Define as propriedades da caixa principal*/
+.texto{
+    display: flex;
+    box-sizing: border-box;
+    width: 560px;
+    border: 5px solid rebeccapurple;
+    border-bottom: 0px; 
+    height: 240px;
+    background: linear-gradient(180deg, rgba(189, 0, 255, 0.3) 0%, rgba(15, 46, 195, 0) 100%);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+}
+/*Define as propriedades do texto do MAIN*/
+.futuro{
+    border-bottom: 10px  solid transparent;
+        border-radius: 5px;
+    border-image: linear-gradient(91.34deg, #9900ff 21.38%, #ff05ea 44.83%);
+    border-image-slice: 1;
+    background:  linear-gradient(91.34deg, #9900ff 21.38%, #ff05ea 44.83%); ;
+    -webkit-background-clip: text;              
+    -webkit-text-fill-color: transparent;    
+
+}
+/*Define as propriedades da palavra "Futuro"*/
+section{
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}
+/*Define as propriedades da sessão*/
+section h2{
+    font-size: 50px;
+    padding: 50px;
+}
+/*Define as propriedades da sessão 2*/
+section img{
+    width: 1000px;
+}
+/*Define a largura da imagem da sessão*/
+.part1{
+    display: flex;
+
+}
+/*Define o alinhamento do texto*/
+.textop1{
+
+    width: 475px;
+    padding: 20px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*Define o tamanho e o espaçamento de linha do h4*/
+.textop1 h4{
+    font-size: 40px;
+    padding-bottom: 90px;
+
+}
+/*Define o alinhamento e tamanho do p */
+.textop1 p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+@media (max-width: 800px){
+    /*Configurações de responsividade*/
+    .part1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    section img{
+        width: 400px;
+    }
+    .links{
+        max-width: 1008px;
+        
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+    .sobre{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.part2{
+    /**/
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.textop2{
+    /*Define o alinhamento do texto*/
+    width: 475px;
+    padding: 20px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.textop2 h4{
+    /*Define o tamanho e o espaçamento de linha do h4*/
+    font-size: 40px;
+    padding-bottom: 90px;
+
+}
+
+.textop2 p{
+    /*Define o alinhamento e tomanho do p*/
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+.part2 img{
+    /*Define o alinhamento da imagem*/
+    align-self: flex-end;
+}
+
+.links{
+    /**/
+    background: url(img/bg2.png) no-repeat;
+    max-height: 1080px;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.links a{
+    /*Define a estilização do botão*/
+    margin-top: 90vh;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s linear
+}
+
+
+.links a:hover{
+    /*Define as configurações do hover*/
+    height: 50px;
+    width: 150px;
+    -webkit-border-radius: 83px;
+    border-radius: 83px;
+    filter: drop-shadow(10px 0 30px #fff);
+}
+
+.btnloja{
+    /*Estilização do btnloja*/
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s linear
+}
+
+
+.btnloja:hover{
+    /*Define as configurações do hover*/
+    -webkit-border-radius: 83px;
+    border-radius: 83px;
+    filter: drop-shadow(10px 0 30px #fff);
+}
+
+.icones a{
+    /*Define a cor dos icones*/
+    color: white;
+}
+
+.icones{
+    /*Define as configurações de espaçamento e alinhamento dos icones*/
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    margin-right:50px;
+    gap: 20px;
+    font-size: 30px;
+}
+.botoes{
+    /*Define o alinhamento dos botoes*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rewards{
+    /*Define a largura minima dos rewards*/
+    min-width: 1080px;
+}
+
+.rewards h2{
+    /*Define as configurações de estilização, tamanho e alinhamento do h2*/
+    color: white;
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px ;
+    padding-top: 30px;
+}
+.cards{
+    /*Define as configurações de alinhamento dos cards*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 600px;
+}
+
+.card, .card2, .card3{
+    /*Define as configurações de estilização, alinhamento e tamanho dos cards*/
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 600px;
+    max-width: 400px;
+    background-color: #4A4A7A;
+    color: white;
+    font-size: 24px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    text-align: center;
+    border-color: gray;
+}
+
+
+.card a,.card2 a, .card3 a{
+    /*Define a cor dos cards*/
+    color: #002CFF;
+}
+
+.card h2 , .card2 h2 , .card3 h2{
+    /*Define uma configuração de estilo e o esoaçamento de linhas*/
+    text-decoration: underline;
+    gap: 20px   ;
+}
+
+/*Feito Por Alexandre*/
+footer{
+    /*Define as configurações de tamanho, alinhamento de cor de fundo do footer*/
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.Durabilidade{
+    /*Define o tamanho da div e as margens*/
+    margin-left: 350px;
+    margin-top: 150px;
+    max-width: 550px;   
+}
+
+
+.Title3{
+    /*Define o tamanho e as configurações de margem e alinhamento*/
+    font-size: 30px;
+    display: flex;
+    margin-left: 35px
+    
+}
+.coruja{
+    /*Define as configurações de margem e o tamanho da imagem*/
+    width: 70px;
+    margin-right: 30px;
+}
+.Text3{
+    /*Define o tamanho e a margem*/
+    margin-top: 80px;
+    font-size: 24px;
+
+}
+
+li{
+    /*Define as configurações de margem da lista*/
+    margin-bottom: 20px;
+}
+
+
+.cel3{
+    /*Define as configurações de tamanho e margem da imagem*/
+    margin-top: 150px;
+    max-width: 600px;
+    margin-left: 40px;
+    border-radius: 60px;
+
+}
+
+.page3{
+    /*Define as configurações de margem e alinhamento*/
+    display: flex;
+    margin-bottom: 150px;
+}
+
+footer p {
+    /*Define as configurações de estilo, alinhamento e o tamanho do footer*/
+    background-color: #383A46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    min-height: 90px;
+    font-size: 20px;
+    
+}
+
+i{
+    /*Muda tamanho do icone do instagram, twitter e facebook do footer*/
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.Design{
+    /*Define as configurações de tamanho e e margem*/
+    margin-left: 350px;
+    margin-top: 150px;
+    max-width: 550px;
+    
+}
+
+.Title{
+    /*Define o tamanho do titulo*/
+    font-size: 30px;
+    display: flex;
+    margin-left: 35px
+    
+}
+.coruja{
+    /*Define o tamanho da coruja e o espaçamento*/
+    width: 70px;
+    margin-right: 30px;
+}
+.Text{
+    /*Define o tamanho da fonte e uma margem*/
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+li{
+    /*Define as confiurações de margem da lista*/
+    margin-bottom: 20px;
+
+}
+
+
+
+.cel1{
+    /*Define o tamanho, margens e o o estilo da imagem */
+    margin-top: 150px;
+    max-width: 400px;
+    margin-left: 40px;
+    border-radius: 20px;
+
+}
+
+.page{
+    /*Define a configuração de alinhamento*/
+    display: flex;
+}
+
+.Desempenho{
+    /*Define o tamanho da div e a margem*/
+    margin-left: 50px;
+    margin-top: 150px;
+    max-width: 550px;
+    
+    
+}
+
+.Title2{
+    /*Define as configuração de tamanho e alinhamento do titulo*/
+    font-size: 30px;
+    display: flex;
+    margin-left: 35px
+    
+}
+
+.coruja{
+    /*Defin*/
+    width: 70px;
+    margin-right: 30px;
+}
+
+.Text2{
+    margin-top: 80px;
+    font-size: 24px;
+
+}
+/* Define o tamanho da fonte e uma margem */
+li{
+    margin-bottom: 20px;
+
+}
+/* Cria uma lista para inserir as informações */
+
+.page2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cel2{
+    margin-top: 150px;
+    max-width: 900px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+/* Configurações das imagens, para deixar a borda redonda e o tamanho máxima dela */
